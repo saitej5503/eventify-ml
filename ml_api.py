@@ -12,12 +12,12 @@ columns = [
 "user_interest_music",
 "user_interest_sports",
 "user_interest_tech",
-"user_interest_cultural",
+
 "event_category_dance",
 "event_category_music",
 "event_category_sports",
 "event_category_tech",
-"event_category_cultural",
+
 "location_chennai"
 ]
 
@@ -56,8 +56,8 @@ def recommend():
             0: "sports",
             1: "music",
             2: "dance",
-            3: "tech",
-            4: "cultural"
+            3: "tech"
+        
         }
 
         predicted_category = categories.get(prediction, "tech")
